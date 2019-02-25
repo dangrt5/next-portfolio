@@ -1,14 +1,27 @@
 import React from "react";
-import Link from "next/link";
 
 const NavBar = () => (
     <nav>
-        <div className="nav-wrapper">
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
+        <div className="nav-wrapper white">
+            <ul id="nav-mobile" className="right">
                 <li><a href="https://linkedin.com/in/randytuandang">LinkedIn</a></li>
                 <li><a href="https://github.com/dangrt5">Github</a></li>
             </ul>
         </div>
+        <style jsx>{`
+            .nav-wrapper {
+                border: none;
+            }
+
+            .nav {
+                box-shadow: none;
+            }
+
+            a {
+                color: blue;
+            }
+        `}
+        </style>
     </nav>
 )
 
