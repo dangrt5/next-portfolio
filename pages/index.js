@@ -2,6 +2,8 @@ import React from "react";
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import Title from "../components/Title";
+import Applications from "../components/Applications";
+import TechStack from "../components/TechStack";
 
 export default () => (
 
@@ -13,6 +15,8 @@ export default () => (
         <NavBar />
         <div className="container">
             <Title />
+            <Applications />
+            <TechStack />
         </div>
     </div>
 
