@@ -13,7 +13,7 @@ const NavBar = () => (
                 border: none;
             }
 
-            .nav {
+            nav {
                 box-shadow: none;
             }
 
