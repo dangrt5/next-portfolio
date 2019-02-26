@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import Title from "../components/Title";
 import Applications from "../components/Applications";
 import TechStack from "../components/TechStack";
+import Contact from "../components/Contact";
 
 export default () => (
 
@@ -19,6 +20,8 @@ export default () => (
             <Applications />
             <div className="divider"></div>
             <TechStack />
+            <div className="divider"></div>
+            <Contact />
         </div>
     </div>
 

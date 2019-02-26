@@ -8,7 +8,7 @@ const Applications = () => (
             <div className="project-image center" />
             <p className="center description">Campsite Assistance Tool</p>
             <p className="links center">
-                <a href="/">Live</a> | <a href="/">Github</a>
+                <a href="https://happycamper.live" target="_blank">Live</a> | <a href="https://github.com/dangrt5/happy-camper" target="_blank">Github</a>
             </p>
         </div>
         <div className="col s12 m4">
