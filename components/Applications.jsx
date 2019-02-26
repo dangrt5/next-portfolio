@@ -6,7 +6,7 @@ const Applications = () => (
         <div className="col s12 m4">
             <h6 className="center">Happy Camper</h6>
             <div className="project-image center" />
-            <p className="center">Campsite Assistance Tool</p>
+            <p className="center description">Campsite Assistance Tool</p>
             <p className="links center">
                 <a href="/">Live</a> | <a href="/">Github</a>
             </p>
@@ -14,7 +14,7 @@ const Applications = () => (
         <div className="col s12 m4">
             <h6 className="center">Student Grade Table</h6>
             <div className="project-image" />
-            <p className="center">Academic Management System</p>
+            <p className="center description">Academic Management System</p>
             <p className="links center">
                 <a href="/">Live</a> | <a href="/">Github</a>
             </p>
@@ -22,7 +22,7 @@ const Applications = () => (
         <div className="col s12 m4">
             <h6 className="center">Eye Spy</h6>
             <div className="project-image" />
-            <p className="center">AI Image Scavenger Hunt Game</p>
+            <p className="center description">AI Image Scavenger Hunt Game</p>
             <p className="links center">
                 <a href="/">Live</a> | <a href="/">Github</a>
             </p>
@@ -53,6 +53,9 @@ const Applications = () => (
             font-style: italic;
         }
 
+        .links, .description {
+            margin: 0;
+        }
     `}
         </style>
 
