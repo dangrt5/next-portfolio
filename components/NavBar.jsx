@@ -6,6 +6,7 @@ const NavBar = () => (
             <ul id="nav-mobile" className="right">
                 <li><a href="https://linkedin.com/in/randytuandang">LinkedIn</a></li>
                 <li><a href="https://github.com/dangrt5">Github</a></li>
+                <li><a href="">Resumé</a></li>
             </ul>
         </div>
         <style jsx>{`

@@ -2,22 +2,37 @@ import React from "react";
 
 const Applications = () => (
     <div className="row">
-        <div className="col s4">
-            <div className="project-image" />
-            <h5 className="center">Eye Spy</h5>
+        <h4>Portfolio</h4>
+        <div className="col s12 m4">
+            <h6 className="center">Happy Camper</h6>
+            <div className="project-image center" />
+            <p className="center">Campsite Assistance Tool</p>
+            <p className="links center">
+                <a href="/">Live</a> | <a href="/">Github</a>
+            </p>
         </div>
-        <div className="col s4">
+        <div className="col s12 m4">
+            <h6 className="center">Student Grade Table</h6>
             <div className="project-image" />
+            <p className="center">Academic Management System</p>
+            <p className="links center">
+                <a href="/">Live</a> | <a href="/">Github</a>
+            </p>
         </div>
-        <div className="col s4">
+        <div className="col s12 m4">
+            <h6 className="center">Eye Spy</h6>
             <div className="project-image" />
+            <p className="center">AI Image Scavenger Hunt Game</p>
+            <p className="links center">
+                <a href="/">Live</a> | <a href="/">Github</a>
+            </p>
         </div>
 
         <style jsx>{`
 
         .project-image {
-            height: 250px;
-            width: 250px;
+            height: 200px;
+            width: 100%;
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -32,6 +47,10 @@ const Applications = () => (
 
         .col:last-of-type .project-image {
             background-image: url(../static/images/eyespy.jpg);
+        }
+
+        .col > p:not(.links) {
+            font-style: italic;
         }
 
     `}

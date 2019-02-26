@@ -15,7 +15,9 @@ export default () => (
         <NavBar />
         <div className="container">
             <Title />
+            <div className="divider"></div>
             <Applications />
+            <div className="divider"></div>
             <TechStack />
         </div>
     </div>
