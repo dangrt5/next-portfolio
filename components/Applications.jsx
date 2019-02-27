@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link"
 
 const Applications = () => (
     <div className="row">
@@ -16,7 +17,7 @@ const Applications = () => (
             <div className="project-image" />
             <p className="center description">Academic Management System</p>
             <p className="links center">
-                <a href="/">Live</a> | <a href="/">Github</a>
+                <a target="_blank" href="/">Live</a> | <a target="_blank" href="https://github.com/dangrt5/student-grade-table">Github</a>
             </p>
         </div>
         <div className="col s12 m4">
@@ -24,7 +25,7 @@ const Applications = () => (
             <div className="project-image" />
             <p className="center description">AI Image Scavenger Hunt Game</p>
             <p className="links center">
-                <a href="/">Live</a> | <a href="/">Github</a>
+                <a target="_blank" href="../static/eye-spy/index.html">Live</a> | <a target="_blank" href="https://github.com/dangrt5/eye-spy">Github</a>
             </p>
         </div>
 
@@ -56,6 +57,11 @@ const Applications = () => (
         .links, .description {
             margin: 0;
         }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     `}
         </style>
 
