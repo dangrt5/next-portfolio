@@ -59,6 +59,10 @@ const Applications = () => (
           background-repeat: no-repeat;
         }
 
+        .project-image {
+          background-position: center;
+        }
+
         .col:first-of-type .project-image {
           background-image: url(../static/images/happycamper.jpg);
         }
