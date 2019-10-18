@@ -10,9 +10,11 @@
     "next": "^8.0.3",
     "node-sass": "^4.12.0",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "typeface-open-sans": "^0.0.75"
   },
   "devDependencies": {
+    "cypress": "^3.4.1",
     "next-compose-plugins": "^2.2.0"
   },
   "scripts": {
@@ -20,7 +22,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "now-build": "next build && next export -o dist"
+    "now-build": "next build && next export -o dist",
+    "cypress": "cypress open"
   },
   "keywords": [],
   "author": "",
