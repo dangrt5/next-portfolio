@@ -6,11 +6,12 @@ const About = () => {
   return (
     <div className="row">
       <h4>About Me</h4>
-      <div className="col s12 m4">
+      <div className="col s12">
         <ul>
           <li>
             <h6>
-              <img src={JS} alt="JavaScript" /> Software Engineer
+              <img src={JS} alt="JavaScript" /> Developer with curiosity to try
+              all technologies
             </h6>
           </li>
           <li>

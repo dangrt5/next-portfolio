@@ -19,8 +19,8 @@ export default () => (
       <Title />
       <div className="divider"></div>
       <About />
-      <div className="divider"></div>
-      <WorkExperience />
+      {/* <div className="divider"></div> */}
+      {/* <WorkExperience /> */}
       <div className="divider"></div>
       <TechStack />
       <div className="divider"></div>
