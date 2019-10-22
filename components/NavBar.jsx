@@ -14,11 +14,6 @@ const NavBar = () => (
             Github
           </a>
         </li>
-        <li>
-          <a target="_blank" href="../static/dang-randy-resume.pdf">
-            Resumé
-          </a>
-        </li>
       </ul>
     </div>
 

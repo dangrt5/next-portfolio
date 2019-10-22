@@ -6,7 +6,7 @@ const Contact = () => (
     <div className="col s12">
       <h6>
         Feel free to reach out to me through{" "}
-        <a target="_blank" href="https://linkedin.com/in/randytuandang">
+        <a target="_blank" href="https://linkedin.com/in/dang-randy">
           LinkedIn
         </a>{" "}
         or <a href="mailto:randy.dang05@gmail.com">Email</a>.

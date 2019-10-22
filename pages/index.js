@@ -6,6 +6,7 @@ import Applications from "../components/Applications";
 import TechStack from "../components/TechStack";
 import Contact from "../components/Contact";
 import WorkExperience from "../components/WorkExperience";
+import About from "../components/About";
 import "../static/styles.css";
 
 export default () => (
@@ -17,11 +18,13 @@ export default () => (
     <div className="container">
       <Title />
       <div className="divider"></div>
+      <About />
+      <div className="divider"></div>
       <WorkExperience />
       <div className="divider"></div>
-      <Applications />
-      <div className="divider"></div>
       <TechStack />
+      <div className="divider"></div>
+      <Applications />
       <div className="divider"></div>
       <Contact />
     </div>
